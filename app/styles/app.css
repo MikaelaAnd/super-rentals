@@ -359,18 +359,6 @@ p {
   font-style: normal;
 }
 
-.rental .map {
-  flex-grow: 0;
-  flex-basis: 150px;
-  font-size: 0;
-  margin: 0px 25px;
-}
-
-.rental .map img {
-  width: 150px;
-  height: 150px;
-}
-
 .rental.detailed {
   background: none;
   align-items: flex-start;
@@ -406,16 +394,6 @@ p {
   flex-shrink: 1;
 }
 
-.rental.detailed .map {
-  flex-basis: 100%;
-  margin: 50px 25px 25px 25px;
-}
-
-.rental.detailed .map img {
-  width: 100%;
-  height: auto;
-}
-
 @media only screen and (max-width: 919px) {
   .rental.detailed .image, .rental.detailed .image.large {
     margin: 30px 25px 25px 25px;
@@ -440,9 +418,6 @@ p {
     opacity: 0.1;
   }
 
-  .rental.detailed .map {
-    margin-top: 25px;
-  }
 }
 
 /**
@@ -469,8 +444,8 @@ p {
   position: relative;
 }
 
-.tomster {
-  background: url(../../public/assets/images/teaching-tomster.png);
+.janne {
+  background: url(/app/kangaroo.jpg);
   background-size: contain;
   background-repeat: no-repeat;
   height: 200px;
