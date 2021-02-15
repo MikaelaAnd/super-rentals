@@ -47,7 +47,7 @@ module.exports = function (environment) {
     // here you can enable a production-specific feature
   }
 
-  ENV.MAPBOX_ACCESS_TOKEN = "https://api.mapbox.com/styles/v1/mapbox/light-v10/static/21.4976,65.3004,13.39,0/300x200?access_token=YOUR_MAPBOX_ACCESS_TOKEN"
+  ENV.MAPBOX_ACCESS_TOKEN = "https://api.mapbox.com/styles/v1/mapbox/streets-v11/static/-122.4184,37.7797,10/150x120@2x?access_token={{this.token}}"
 
   return ENV;
 };
