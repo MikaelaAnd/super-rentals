@@ -63,6 +63,28 @@ p {
 .button:hover {
   opacity: 1;
 }
+
+/**
+* Info-button
+*/
+.info-button {
+  padding: 10px 30px 10px;
+  text-decoration: none;
+  color: rgb(126, 86, 122);
+  background: #eeddea;
+  border-radius: 5px;
+  border: none;
+  font-size: 20px;
+  font-weight: bold;
+  opacity: 0.9;
+  display: inline-block;
+}
+
+.info-button:hover {
+  opacity: 1;
+}
+
+
 /**
  * Body Container
  */
