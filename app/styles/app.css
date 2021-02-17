@@ -83,8 +83,6 @@ p {
 .info-button:hover {
   opacity: 1;
 }
-
-
 /**
  * Body Container
  */
@@ -201,6 +199,11 @@ p {
   padding: 10px 15px;
 }
 
+.row {
+  display: flex;
+  flex-direction: row;
+}
+
 .menu .results li:hover {
   background: #f3f3f3;
 }
@@ -217,12 +220,9 @@ p {
 
 .jumbo {
   padding: 50px;
-  background: #f6f6f6;
+  background: white;
 }
 
-.jumbo:hover {
-  background-color: #f3f3f3;
-}
 
 .jumbo h2 {
   font-size: 3.2em;
@@ -247,7 +247,7 @@ p {
 
 .rental {
   margin-top: 15px;
-  background-color: #f6f6f6;
+  background-color: white;
   padding: 20px 25px;
   display: flex;
   justify-content: space-between;
@@ -316,7 +316,7 @@ p {
   margin-top: 5px;
   margin-bottom: -15px;
   text-align: center;
-  color: #016aba;
+  color: #582d4f;
 
   /* This is needed to fix a safari clipping issue */
   position: relative;
@@ -444,8 +444,8 @@ p {
   position: relative;
 }
 
-.janne {
-  background: url(/app/kangaroo.jpg);
+.tomster {
+  background: url(/tomster.png);
   background-size: contain;
   background-repeat: no-repeat;
   height: 200px;
@@ -461,4 +461,39 @@ p {
   clip: rect(0 0 0 0);
   height: 1px; width: 1px;
   margin: -1px; padding: 0; border: 0;
+}
+
+.kangaroo {
+  background: url(/kangaroo.jpg);
+    background-size: contain;
+  background-repeat: no-repeat;
+  height: 200px;
+  width: 200px;
+  color:#e7c3d8;
+  font-weight: 600;
+}
+.curly-dog {
+  background: url(/doggo.JPG);
+  background-size: contain;
+  background-repeat: no-repeat;
+  height: 200px;
+  width: 200px;
+  color:#e7c3d8;
+  font-weight: 600;
+}
+.llama {
+  background: url(/llama.jpg);
+  background-size: contain;
+  background-repeat: no-repeat;
+  height: 200px;
+  width: 200px;
+  color:#e7c3d8;
+  font-weight: 600;
+}
+
+.big-text {
+  font-weight: bolder;
+  font-size: larger;
+  padding-bottom: 1rem;
+  color: #582d4f;
 }
