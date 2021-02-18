@@ -1,7 +1,6 @@
 # super-rentals
 
-This README outlines the details of collaborating on this Ember application.
-A short introduction of this app could easily go here.
+This is for a school project. I learned how to use Ember.js, I followed Ember.js tutorial and I wrote 6 components myself and one route. 
 
 ## Prerequisites
 
