@@ -7,7 +7,7 @@ module('Integration | Component | rental', function(hooks) {
   setupRenderingTest(hooks);
 
   test('it renders information about a rental property', async function (assert) {
-    await render(hbs`<Rental />`);
+    await render(hbs`<Rental1 />, <Rental2 />, <Rental3 />`);
 
     assert.dom('article').hasClass('rental');
     assert.dom('article h3').hasText('Grand Old Mansion');
